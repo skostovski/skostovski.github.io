@@ -13,7 +13,7 @@
 
         mail($mailTo, $txt, $headers);
 
-        header("Location: index.php?mailsent");
+        header("Location: index.html?mailsent");
     }
 
 ?>
